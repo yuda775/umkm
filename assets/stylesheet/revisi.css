@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px dashed black; */
+}
+
+body {
+    margin-top: 100px;
+}
+
+nav, footer {
+    background-color: lightgray;
+}
+
+.jumbotron {
+    background: 
+    linear-gradient(rgba(0,0,0,0.463),
+    rgba(34, 44, 44, 0.45)),
+    url(../images/jumbotron.jpg) fixed;
+    background-size: cover;
+    height: 30rem;    
+}
+
+#tentang-kami {  
+    padding-top: 100px;  
+    font-size: 18px;
+    /* border: 3px dashed gray; */
+}
+
+.produk {
+    padding-top: 100px;
+}
+
+.carousel-inner {
+    border-radius: 5px;
+    height: 0;
+    padding-bottom: 40%;
+    box-shadow: 10px 10px khaki;
+    /* this sets carousel aspect ratio (4:1 here) */
+}
+
+.carousel-item {
+    position: absolute !important;
+    /* Bootstrap is insistent */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+
+.carousel-caption {
+    background:
+            linear-gradient(rgba(0, 0, 0, 0.463),
+                rgba(65, 83, 83, 0.45));
+    
+    border-radius: 5px;        
+}
+
+.carousel-item h3 {
+    font-weight: bolder;
+    font-size: 45px;
+    text-shadow: 4px 4px black;
+}
+
+.carousel-item p{
+    margin: auto;
+    padding: 5px;
+    color: black;
+    margin-top: 20px;
+    font-weight: bold;
+    width: 50%;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px;
+}
+
+.lokasi {
+    margin-top:200px;
+    margin-bottom: 250px;
+}
+
+.contact {
+    padding-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+footer {
+    height:300px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .jumbotron {
+        font-size: 11px;
+    }
+
+    .tentang-kami {        
+        font-size: 11px;
+    }
+}

@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px dashed black; */
+}
+
+body {
+    height: 2000px;
+}
+
+.jumbotron {
+    padding: 50px;
+    background: 
+    linear-gradient(rgba(0,0,0,0.463),
+    rgba(65, 83, 83, 0.45)),
+    url(../images/jumbotron.jpg) fixed;
+    background-size: cover;
+    background-position: top;
+    height: 300px;
+}
+
+.tentang-kami {
+    padding: 50px;
+    font-size: 18px;
+    /* border: 3px dashed gray; */
+}
+
+.carousel-inner {
+    border-radius: 10px;
+    height: 0;
+    padding-bottom: 40%;
+    /* this sets carousel aspect ratio (4:1 here) */
+}
+
+.carousel-item {
+    position: absolute !important;
+    /* Bootstrap is insistent */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.carousel-item img {
+    height: 100%;
+    /* Bootstrap handles width already */
+    object-fit: cover;
+    /* or 'contain' if you want stretch instead of crop */
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.463),
+            rgba(65, 83, 83, 0.45));
+}
+
+.carousel-item a ,.carousel-item p {
+    text-decoration: none;
+    color: chocolate;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 4px;
+    box-shadow: 10px 10px;
+}
+
+.carousel-item p{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.contact {
+    margin-top: 100px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .jumbotron {
+        font-size: 11px;
+    }
+
+    .tentang-kami {        
+        font-size: 11px;
+    }
+}
