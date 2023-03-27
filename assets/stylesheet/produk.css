@@ -4,14 +4,14 @@
 }
 
 .product-list {
-    height: 650px;    
+    height: 600px;
 }
 
 .sidebar {
     background-color: white;
     padding: 25px;
     height: 300px;
-    
+
 }
 
 .sidebar form {
@@ -20,14 +20,14 @@
     border-bottom: 1px solid lightgray;
 }
 
-.menu ul li {
+.sidebar>.menu>ul>li>a {
     text-decoration: none;
-}
-
-.sidebar > .menu > ul > li > a {
-    margin-bottom: 10px;
     border: 0px;
     color: rgb(91, 91, 91);
+}
+
+.sidebar>.menu>ul>li {
+    margin-bottom: 15px;
 }
 
 iframe {
