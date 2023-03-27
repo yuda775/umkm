@@ -1,6 +1,6 @@
 :root {
-    --primary: #F1F7E7;
-    --bg: #F1F7E7;
+    --primary: whitesmoke;
+    --bg: whitesmoke;
 }
 
 * {
@@ -152,7 +152,7 @@ nav .nav-item {
 }
 
 footer {
-    height: 80px;
+    height: 150px;
 }
 
 

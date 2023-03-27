@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.product-list {
+    height: 650px;    
+}
+
+.sidebar {
+    background-color: white;
+    padding: 25px;
+    height: 300px;
+    
+}
+
+.sidebar form {
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid lightgray;
+}
+
+.menu ul li {
+    text-decoration: none;
+}
+
+.sidebar > .menu > ul > li > a {
+    margin-bottom: 10px;
+    border: 0px;
+    color: rgb(91, 91, 91);
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
