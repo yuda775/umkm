@@ -4,8 +4,10 @@
 }
 
 .product-list {
+    margin-top: 50px;
     height: 600px;
     display: flex;
+    justify-content: space-evenly;
     gap: 50px;
 }
 
@@ -27,6 +29,7 @@
     text-decoration: none;
     border: 0px;
     color: rgb(91, 91, 91);
+
 }
 
 .sidebar>.menu>ul>li {
@@ -44,7 +47,10 @@ footer {
     
 }
 
-@media only screen and (max-width: 768px) {    .product-list {
+
+
+@media only screen and (max-width: 768px) {    
+    .product-list {    
         flex-direction: column;
         height: 1000px;
     }
@@ -52,6 +58,4 @@ footer {
     iframe {
         height: 100%;
     }
-
-
 }
