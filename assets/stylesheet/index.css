@@ -28,6 +28,10 @@ body p {
 
 
 /* Produk Revisi */
+#produk {
+    padding-top: 10px;
+}
+
 .produk {
     display: flex;
     width: 300vw;
@@ -55,8 +59,22 @@ body p {
     left: 20px;
     margin: 0;
     opacity: 0;
+    background-color: #557174;
+    border-radius: 5px;
+    box-shadow: 10px 10px;
+    padding: 10px;
+    color: #F7F7E8;
 }
 
+
+.panel h3 :hover {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.panel h3 a {
+    color: black;
+}
 .panel.active {
     flex: 5;
 }

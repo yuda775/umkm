@@ -3,12 +3,17 @@
     padding: 0;
 }
 
+nav,
+footer {
+    background-color: #557174;
+}
+
 .product-list {
     margin-top: 50px;
     height: 600px;
     display: flex;
     justify-content: space-evenly;
-    gap: 50px;
+    gap: 12px;
 }
 
 .sidebar {
