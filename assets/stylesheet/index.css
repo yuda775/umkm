@@ -85,17 +85,6 @@ body p {
     transition: opacity 0.3ms ease-in 0.4s;
 }
 
-@media (max-width: 400px) {
-    .container {
-        width: 100vw;
-    }
-
-    .panel:nth-of-type(4),
-    .panel:nth-of-type(5) {
-        display: none;
-    }
-}
-
 
 .jumbotron {
     background:
@@ -173,11 +162,28 @@ footer {
 
 
 @media only screen and (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+    }
+
     .jumbotron {
         font-size: 11px;
     }
 
     .tentang-kami {
         font-size: 11px;
+    }
+
+    .container {
+        width: 100vw;
+    }
+
+    /* .panel:nth-of-type(4),
+    .panel:nth-of-type(5) {
+        display: none;
+    } */
+
+    .panel h3 {
+        font-size: 12px;
     }
 }
