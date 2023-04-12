@@ -146,8 +146,8 @@ body p {
 }
 
 .lokasi {
-    margin-top: 250px;
-    margin-bottom: 180px;
+    padding-top: 125px;
+    margin-bottom: 100px;
 }
 
 .contact {
@@ -158,7 +158,13 @@ body p {
 
 footer {
     padding: 50px;
-    color: white;
+    color: #C7CFB7;
+}
+
+footer p {
+    color: #C7CFB7;
+    font-size: x-small;
+    text-align: center;
 }
 
 

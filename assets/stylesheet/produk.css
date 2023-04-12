@@ -10,39 +10,34 @@ footer {
 
 .product-list {
     margin-top: 50px;
-    height: 600px;
-    display: flex;
-    justify-content: space-evenly;
-    gap: 12px;
+    height: 700px;
 }
 
-.sidebar {
+.menu {
+    padding: 10px;
     background-color: white;
-    padding: 25px;
-    height: 300px;
     box-shadow: 1px 1px 3px gray;
     border-radius: 5px;
 }
 
-.sidebar form {
-    padding-bottom: 15px;
-    margin-bottom: 25px;
-    border-bottom: 1px solid lightgray;
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-left: -50px;
+    align-items: center;
 }
 
-.sidebar>.menu>ul>li>a {
+.menu>ul>li>a {
     text-decoration: none;
-    border: 0px;
     color: rgb(91, 91, 91);
-
 }
 
-.sidebar>.menu>ul>li {
-    margin-bottom: 15px;
-}
 
 iframe {
+    margin-top: 20px;
     width: 100%;
+    height: 80%;
     box-shadow: 1px 1px 3px gray;
     border-radius: 5px;
 }
@@ -60,6 +55,6 @@ footer {
     }
 
     iframe {
-        height: 100%;
+        height: 80%;
     }
 }
