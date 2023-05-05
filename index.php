@@ -1,3 +1,7 @@
+<?php
+require_once 'src/db.php';
+?>
+
 <!doctype html>
 <html lang="en">
 
@@ -29,7 +33,7 @@
     <!-- Navbar -->
     <nav class="navbar sticky-top bg-body-tertiary navbar-expand-lg navbar-dark">
         <div class="container">
-            <a class="navbar-brand" href="#"><span style="color: #BACDCB">@Clambi</span>Store.</a>
+            <a class="navbar-brand" href="#"><span style="color: #BACDCB"><?php echo getValue('nama_toko')?></span>Store.</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
