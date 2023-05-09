@@ -20,7 +20,7 @@
     <title>Produk Kami</title>
     <!-- icon -->
     <script src="https://unpkg.com/feather-icons"></script>
-    <link rel="stylesheet" href="assets/stylesheet/produk.css">
+    <link rel="stylesheet" href="src/stylesheet/produk.css">
     <link rel="shortcut icon" href="assets/images/logo.png" type="text/ico" />
 </head>
 

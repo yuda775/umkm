@@ -20,10 +20,10 @@ require_once 'src/db.php';
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="assets/stylesheet/index.css">
+    <link rel="stylesheet" href="src/assets/stylesheet/index.css">
     <title>Clambi Store</title>
     <!-- icon -->
-    <link rel="shortcut icon" href="assets/images/logo.png" type="text/ico" />
+    <link rel="shortcut icon" href="assets/icons/logo.png" type="text/icon" />
     <script src="https://unpkg.com/feather-icons"></script>
 
 </head>
@@ -39,7 +39,7 @@ require_once 'src/db.php';
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav ms-auto"> 
                     <li class="nav-item">
                         <a class="nav-link" href="#produk">Produk Kami</a>
                     </li>
@@ -232,7 +232,7 @@ require_once 'src/db.php';
     <script>
         feather.replace()
     </script>
-    <script src="assets/javascript/script.js"></script>
+    <script src="src/javascript/script.js"></script>
 </body>
 
 </html>

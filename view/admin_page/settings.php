@@ -78,7 +78,7 @@ require_once 'src/db.php';
             </div>
 
             <h2 class="mt-4" id="produkpadaslide">Mengatur Produk pada Slide</h2>
-            <ul class="list-group">
+            <!-- <ul class="list-group">
                 <li class="list-group-item mb-2">
                     <label for="email">Kategori Satu</label>
                     <input type="email" class="form-control" id="tagline" name="kategori_satu" value="<?php echo getValue('kategori_satu') ?>">
@@ -109,9 +109,9 @@ require_once 'src/db.php';
                     <label for="formfile" class="form-label"></label>
                     <input class="form-control" type="file" id="formfile" name="file_kategori_lima"  value="<?php echo getValue('file_kategori_lima') ?>">
                 </li>
-            </ul>
+            </ul> -->
             <h2 class="mt-4" id="menambahkanartikel">Menambahkan Artikel</h2>
-            <ul class="list-group">
+            <!-- <ul class="list-group">
                 <li class="list-group-item mb-2">
                     <label for="email">Per-Produk Satu</label>
                     <input type="email" class="form-control" id="tagline" name="produk_satu" value="<?php echo getValue('produk_satu') ?>">
@@ -162,7 +162,7 @@ require_once 'src/db.php';
                         <a href="">+Tambah</a>
                     </div>
                 </li>
-            </ul>
+            </ul> -->
             <h2 class="mt-5">Pengaturan Umum</h2>
             <div class="form-group">
                 <div class="form-check">
